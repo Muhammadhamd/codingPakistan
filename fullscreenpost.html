@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fullscreen|my web</title>
+    <link rel="import" href="home.html">
+    <link rel="icon" href="/img/newlogo.png">
+</head>
+<style>
+    
+    body{
+            background-color: #1c1e26;
+            align-items:center;
+            display: flex;
+            flex-direction: column;
+        }
+        .main-container{
+            width: 100%;
+            max-width: 1344px;
+            justify-content: center;
+            display: flex;
+            
+            
+
+        }
+
+      
+
+        .main-container  .blog-post{
+            width: 600px;
+            
+    padding: 25px 10px 80px 7px;
+    /* border-radius: 7px; */
+    box-shadow: 0 px 0px 5px white;
+    /* background-color: #bc04ff0f; */
+    margin: 70px 0 30px 0;
+    /* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.575); */
+    color: white;
+    font-family: 'Ubuntu Condensed';
+    line-height: 30px;
+    border-bottom:2px solid white ;
+    text-decoration: none;
+
+
+        }
+        .blog-post img{
+            width: 100%;
+            margin: 10px 0;
+            /* opacity: 6; */
+        }
+        .blog-post .bigtext{
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .blog-post video{
+            width: 100%;
+        }
+</style>
+<body>
+   <script src="nav.js" id="replace_with_navbar"></script>
+<div class="main-container">
+    <div class="container">
+        <div class="blog-post">
+            <div id="sentpost" class="sentpost">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+   <script src="footer.js" id="replace_with_footer"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script>
+       $( ".sentpost" ).load( "home.html " );
+   </script>
+    
+</body>
+</html>

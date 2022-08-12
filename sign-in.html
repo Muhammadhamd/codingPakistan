@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/newlogo.png">
+
+</head>
+<style>
+    body{
+        
+    background-color: #1c1e26;
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+        
+    }
+
+    .main-container{
+        max-width: 1344px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .container{
+        display: flex;
+    justify-content: center;
+    margin: 6% 0 0 0;
+    }
+
+    .container form{
+        width: 100%;
+        max-width: 500px;
+        border-radius: 12px;
+        padding: 20px;
+        background-color: black;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        
+    }
+    .container form:hover{
+        box-shadow: 0px 0px 15px #ccc;
+        transition: 1s;
+    }
+    .container form h2{
+        color: cadetblue;
+
+    }
+    .container form input{
+        border: none;
+        border-radius: 12px;
+        padding: 20px 0;
+        font-size: 91%;
+        background-color:#474747;
+
+        width: 100%;
+        margin: 7px 0;
+        color: white;
+    }
+    .container form button{
+        border: none;
+        border-radius: 12px;
+        padding: 10px 20px;
+        font-size: 100%;
+        background-color: #585029;
+        width: 100%;
+        max-width: 200px;
+        margin: 7px 0;
+        color: white;
+        cursor: pointer;
+    }
+    .container form button:hover{
+        background-color: #5c5636;
+    }
+    .container form p{
+        color: white;
+        font-size: 100%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .containerform p a{
+        color: rgb(104, 118, 167);
+        font-size: 130%;
+        text-decoration: none;
+    }
+
+    @media  screen and (max-width: 600px) {
+        .registerd-form-page form{
+            margin-left: 100px;
+        }
+    }
+    @media  screen and (max-width: 500px) {
+        .registerd-form-page form{
+            margin-left: 120px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .registerd-form-page form input{
+            padding: 15px 0;
+            margin: 5px;
+            border-radius: 10px;
+            font: 90%;
+        }
+        .registerd-form-page form button{
+            padding: 8px 16px;
+            width: 70%;
+            
+        }
+        .registerd-form-page form p{
+            font-size: 70%;
+        }
+    }
+    @media  screen and (max-width: 400px) {
+        .registerd-form-page form{
+            margin-left: 150px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .registerd-form-page form input{
+            padding: 10px 0;
+            margin: 5px;
+            border-radius: 7px;
+            font: 60%;
+        }
+        .registerd-form-page form button{
+            padding: 8px 12px;
+            width: 50%;
+            font-size: 70%;
+            
+        }
+        .registerd-form-page form p{
+            font-size: 50%;
+        }
+        .registerd-form-page form h2{
+            font-size: 80%;
+        }
+
+    }
+</style>
+<body>
+    <script id="replace_with_navbar" src="nav.js"></script>
+
+    
+    <div class="main-container">
+        <div class="registerd-form-page">
+           <div class="container">
+            <form>
+                <h2>Log-in form</h2>
+                <input class="input-registerd-username" placeholder="Username" type="Username" required>
+                <input class="input-registerd-password" placeholder="Password" type="password"required>
+                <button class="submit-btn">Submit</button>
+                <br><br><br>
+                <p>Not registerd yet? click <a href="/signup.html">here</a></p>
+            <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+            </form>
+           </div>
+        </div>
+    </div>
+    <script id="replace_with_footer" src="footer.js"></script>
+
+</body>
+</html>

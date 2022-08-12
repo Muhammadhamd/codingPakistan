@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  body{
+    align-items: center;
+    display: flex;
+    
+    background-color: #1c1e26;
+  }
+ footer{
+    width: 65pc;
+    justify-content: center;
+    display: flex;
+    margin: 17% 0 0 0;
+}
+  
+.footer-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+  .footer-content{
+    width: 1077px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #948fb5a6;
+    padding: 0px 0 50px 0;
+  }
+
+  .footer-content div{
+    padding: 0 12%;
+    border-right: 1px solid white;
+  }
+  .footer-content .pages{
+    border: none;
+  }
+
+  .footer-content p{
+    line-height: 22px;
+    font-weight: 600;
+  }
+  .footer-content p a {
+    text-decoration: none;
+    color: #7c798b;
+    
+    opacity: 0.6;
+    
+    
+  }
+  .footer-content p a:hover{
+    opacity: 1;
+  }
+  .footer-content h3{
+   
+    font-size: 20px;
+    color: #ccc;
+    margin: 0 0 16px 0;
+    
+
+
+  }
+
+  .footer-down{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: 30px 0 10px 0;
+    align-items: center;
+  }
+
+  .footer-down .copyright , .copyright a{
+    color: #d0baba;
+    font-size: 17.1px;
+    text-decoration: none;
+  }
+  .social{
+    width: 300px;
+    justify-content: space-around;
+    display: flex;
+    
+
+  }
+  .social a{
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .twitterlogo:hover{
+    transition: 0.3s;
+    transform: rotatey(360deg);
+    background-color: #1DA1F2;
+  }
+  .fblogo:hover{
+    transition: 0.3s;
+    transform: rotatey(360deg);
+    background-color: #4267B2;
+  }
+  .instalogo:hover{
+    transition: 0.3s;
+    transform: rotatey(360deg);
+    background-color: #d62976 ;
+
+  }
+  .youtubelogo:hover{
+    transition: 0.3s;
+    transform: rotatey(360deg);
+    background-color:#FF0000;
+  }
+  .googlepluslogo:hover{
+    transition: 0.3s;
+    transform: rotatey(360deg);
+    background-color: #db4a39;
+  }
+  .fiverrlogo:hover{
+    background-color: #00ae3a;
+    transition: 0.3s;
+    color: white;
+    transform: rotatey(360deg);
+  }
+
+  @media screen and (max-width:1000px) {
+    footer{
+      width: 900px;
+    }
+    .footer-container{
+      width: 100%;
+    }
+    .footer-content{
+      
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:900px) {
+    footer{
+      width: 80px;
+    }
+  }
+  @media screen and (max-width:830px) {
+    footer{
+      width: 700px;
+    }
+  }
+   @media screen and (max-width:730px) {
+    footer{
+      width: 600px;
+    }
+  }
+  @media screen and (max-width:630px) {
+    footer{
+      width: 500px;
+    }
+  } 
+  @media screen and (max-width:530px) {
+    footer{
+      width: 400px;
+    }
+  }
+   @media screen and (max-width:900px) {
+    footer{
+      width: 800px;
+    }
+  }
+</style>
+<body>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script></script>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="tags">
+                    <h3>tags</h3>
+                    <p><a href="#">javaScript</a></p>
+                    <p><a href="#">HTML</a></p>
+                    <p><a href="#">CSS</a></p>
+                    <p><a href="#">python</a></p>
+                    <p><a href="#">PHP</a></p>
+                </div> 
+                <div class="Services">
+                    <h3>Services</h3>
+                    <p><a href="#">web design</a></p>
+                    <p><a href="#">web development</a></p>
+                    <p><a href="#">Personal blogs</a></p>
+                    <p><a href="#">Game development</a></p>
+                </div>
+                <div class="pages">
+                    <h3>Pages</h3>
+                    <p><a href="home.html">Home</a></p>
+                    <p><a href="about.html">about</a></p>
+                    <p><a href="sign-in.html">sign-in</a></p>
+                    <p><a href="signup.html">sign-up</a></p>
+                </div>
+            </div>
+            <div class="footer-down">
+              <div class="copyright">© 2043 Copyright: <a href="/home.html">CodingPakistan.com</a></div>
+              <div class="col item social">
+                <a href="https://www.facebook.com/muhammadhamdali.2" target="_blank" class="fblogo">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#" class="twitterlogo">
+                    <i class="fa fa-twitter" ></i>
+                </a>
+                <a href="#" class="youtubelogo">
+
+                    <i class="fa fa-youtube">
+    
+                    </i>
+                    
+                </a>
+                <a href="#" class="fiverrlogo">
+
+                  <i class="iconify" data-icon="jam:fiverr"></i>
+                  
+              </a>
+                <a href="https://www.instagram.com/mr_programmer_84/" target="_blank" class="instalogo">
+                    <i class="fa fa-instagram" ></i>
+                </a><a href="" class="googlepluslogo" >
+                  <i class="fa fa-google-plus" ></i>
+                </a>
+            </div>
+            </div>
+        </div>
+     </footer>
+</div>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
+</body>
+</html>
